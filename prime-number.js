@@ -1,0 +1,1 @@
+var num = prompt("enter your date of birth")
