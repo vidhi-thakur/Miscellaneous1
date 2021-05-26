@@ -12,7 +12,11 @@
     text-align: center;
 }
 
-.primeNum-head a {
+primeNum-foot {
+    margin-top: 5rem;
+}
+
+primeNum-head a {
     text-decoration: none;
     color: blue;
 }
