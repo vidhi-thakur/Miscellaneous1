@@ -1,1 +1,1 @@
-var num = prompt("enter your date of birth")
+var num = prompt("Enter your date of birth")
