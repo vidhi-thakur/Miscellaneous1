@@ -4,11 +4,10 @@ var output1 = document.querySelector(".display-output1");
 
 output1.innerText = "Hi "+ userName +", Let's see if your birth date is a prime number!";
 
-var num = setTimeout(function(){
-    prompt("Tell me the date you were born.");
-}, 3000);
+setTimeout(function(){
+  var num = prompt("Tell me the date you were born.");
 
-var output2 = document.querySelector(".display-output2"); 
+    var output2 = document.querySelector(".display-output2"); 
 
 var count = 0;
 
@@ -24,3 +23,4 @@ if(count == 1){
 else{
     output2.innerText = "Nope! Definetly not a prime number!"
 }
+}, 3000);

@@ -1,0 +1,34 @@
+.primeNum-body {
+    background-color: black;
+    color: yellow;
+}
+
+.primeNum-head {
+    border: 2px solid yellow;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.section {
+    max-width: 600px;
+    border: 2px solid yellow;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+}
+
+.display-output1 {
+    margin: 8rem auto 2rem auto;
+}
+
+.display-output2 {
+    margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .section {
+        max-width: 90%;
+    }
+}
