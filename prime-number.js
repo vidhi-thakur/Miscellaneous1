@@ -1,15 +1,16 @@
-setTomeout(function(){
+setTimeout(function(){
   var userName = prompt("Enter your name");
 
 var output1 = document.querySelector(".display-output1");
 
 output1.innerText = "Hi "+ userName +", Let's see if your birth date is a prime number!";
-}, 0);
+}, 2000);
 
 setTimeout(function(){
-  var num = prompt("Tell me the date you were born.");
+  var num=0;
+  num = prompt("Tell me the date you were born.");
 
-    var output2 = document.querySelector(".display-output2"); 
+  var output2 = document.querySelector(".display-output2"); 
 
 var count = 0;
 
